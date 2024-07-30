@@ -7,7 +7,6 @@ import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import (
     TextLoader, JSONLoader, UnstructuredMarkdownLoader, PyMuPDFLoader)
-from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 
 st.set_page_config(page_title="챗봇", page_icon="⭐", layout='wide')

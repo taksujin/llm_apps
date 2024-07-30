@@ -14,7 +14,7 @@ from langchain_community.document_loaders import (
     TextLoader, JSONLoader, UnstructuredMarkdownLoader, PyMuPDFLoader)
 from langchain.chains import RetrievalQA
 from langchain_openai import OpenAIEmbeddings
-import chromadb, faiss
+import faiss
 from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
 

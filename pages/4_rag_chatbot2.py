@@ -18,8 +18,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import OpenAIEmbeddings
-import chromadb, faiss
-from langchain_community.vectorstores import Chroma
+import faiss
 from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
 st.set_page_config(page_title="RAG 챗봇", page_icon="📄", layout='wide')
